@@ -1,0 +1,172 @@
+@media  screen and (max-width:478px) {
+
+    .header1{
+       
+        padding-inline: 0px;
+    }
+
+    .header1-left{
+        /* background-color: rgb(223, 66, 97); */
+        width: 80%;
+        gap: 20px;
+        padding-left: 12px;
+        display: flex;
+        justify-content: space-around;
+
+        
+
+    }
+
+   /* section{
+        overflow: hidden;
+    } */
+
+    /* .header1-left .contact{
+        background-color:darkgoldenrod;
+    } */
+
+    /* .header1-left .mail{
+        background-color: darkolivegreen;
+    } */
+
+    .header1-left p{
+        font-size: 0.6rem;
+        
+    }
+
+    .header1-left i{
+        font-size: 0.9rem;
+    }
+
+    .header1-right
+    {
+        display: none;
+    }
+
+    .hmbrgr{
+        display: block;
+        
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .hmbrgr i{
+        font-size: 1.5rem;
+    }
+
+
+    .header2{
+        right: 70px;
+        padding-inline: 5px;
+    }
+
+    /* .header2 .logo{
+        background-color: chartreuse;
+    } */
+
+    #img1{
+        height: 50px;
+        width: 120px;
+    }
+
+    #img2{
+        display: none;
+    }
+
+    .header2 .home{
+        margin-right: 30px;
+    }
+
+
+   .banner h1{
+    
+    width:100px;
+   }
+
+   .responsive-banner{
+    height: 300px;
+    color: white;
+   }
+
+
+   .homes{
+    height: 150vh;
+   }
+
+   #images1,#images2{
+    height: 350px;
+    width: 350px;
+
+   }
+
+ 
+
+   .homes-images{
+    position: relative;
+    
+   }
+
+   #images1{
+    position: absolute;
+    right: 30px;
+   }
+
+   #images2{
+    position: absolute;
+    right: 30px;
+    top: 400px;
+   }
+
+   .mission{
+    background-color: cornflowerblue;
+    margin-top: 600px;
+    padding-top: 120px;
+    padding-inline: 40px;
+   }
+
+   .work{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+   
+   }
+
+   .work-desc{
+    width: 100vw;
+
+   }
+
+   .work-content{
+    background-color: crimson;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    
+   }
+
+   .work-video{
+    
+    width: 100%;
+    display: flex;
+    position: relative;
+    right: 70%;
+    padding-block: 30px;
+   }
+
+   .work-video video{
+    height: 80vh;
+   }
+
+   
+
+
+
+
+
+
+
+
+}
